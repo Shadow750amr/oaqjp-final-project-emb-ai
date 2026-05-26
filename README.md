@@ -22,12 +22,15 @@ As an extension of sentiment analysis, emotional analysis attends "the finer emo
 └── test_emotion_detection.py                    ----- test file for unit tests
 ```
 
-Example usages:
+
+##Example usages:
 
 By typing "I think I am having fun" we received a sort of values as follows, indicating that the predominant emotion is joy:
 <img width="1340" height="837" alt="6b" src="https://github.com/user-attachments/assets/19cba108-5d0d-4ef9-a603-93eaca8ec5ac" />
 
-
+## Notes:
+1. No requirements were added but this project uses flask and requests as well as json library for json handling.
+2. This project was developed in a controled enviroment provided by IBM so it may not run in your local env.
 
 
 
